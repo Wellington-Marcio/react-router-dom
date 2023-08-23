@@ -11,7 +11,7 @@ export default function Login() {
     e.preventDefault();
     try {
       const response = await fetch(
-        `https://sheetdb.io/api/v1/t3f0khtspqdtd/search?email=${email}&password=${password}&sheet=${"Login"}`,
+        `https://sheetdb.io/api/v1/t3f0khtspqdtd/search?email=${email}&password=${password}&sheet=${"login"}`,
         {
           method: "GET",
         }

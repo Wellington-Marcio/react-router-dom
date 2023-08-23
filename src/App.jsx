@@ -1,8 +1,9 @@
-import Navbar from "./Pages/Navbar"
+import Navbar from "./componets/Navbar"
 import Login from "./Pages/Login"
 import Dashboard from "./Pages/Dashboard"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Home from "./Pages/Home"
+import Card from "./componets/Card"
 
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
 
   return(
     <>
+      
       <Navbar/>
+      
       <RouterProvider router={routes}/>
     </>
 
